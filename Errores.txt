@@ -3,3 +3,7 @@ fatal: unable to access 'https://github.com/perfil/Repositorio.git/': error sett
   CApath: none
 
 solución: git config --global http.sslverify "false"
+(no recomendado, pero puede ser una solucón para XP)
+
+para desactivar TLS/SSL, en caso para problemas de permisos denegados
+git -c http.sslVerify=false
